@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        /* Build properties */
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "lib": ["ESNext", "DOM"],
+        "declaration": true,
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "isolatedModules": true,
+        "moduleDetection": "force",
+
+        /* Path and resolution */
+        "baseUrl": ".",
+        "rootDir": "lib",
+        "outDir": "dist",
+
+        /* Linting */
+        "strict": true,
+        "strictBindCallApply": true,
+        "useDefineForClassFields": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "verbatimModuleSyntax": true,
+        "exactOptionalPropertyTypes": true,
+        "noUncheckedIndexedAccess": true,
+
+        /* DX */
+        "incremental": true,
+        "noErrorTruncation": true,
+        "pretty": true,
+        "skipLibCheck": true,
+
+        /* Types */
+        "types": ["vite/client"]
+    },
+    "include": ["lib"]
+}

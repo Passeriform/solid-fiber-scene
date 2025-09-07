@@ -1,0 +1,71 @@
+{
+    "name": "@passeriform/solid-fiber-scene",
+    "version": "0.0.0",
+    "description": "ThreeJS declarative scene and renderer for SolidJS.",
+    "author": "Utkarsh Bhardwaj (Passeriform) <bhardwajutkarsh.ub@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Passeriform/solid-fiber-scene.git"
+    },
+    "type": "module",
+    "main": "./dist/index.cjs",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        "require": {
+            "types": "./dist/index.d.ts",
+            "require": "./dist/index.cjs"
+        },
+        "import": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "fiber",
+        "three",
+        "threejs",
+        "solid",
+        "solidjs",
+        "scene",
+        "renderer"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "prettier --check .",
+        "lint:fix": "prettier --write .",
+        "test": "vitest",
+        "test:coverage": "vitest run --coverage",
+        "test:watch": "vitest --watch",
+        "clean": "rm -rf dist"
+    },
+    "peerDependencies": {
+        "solid-js": "*",
+        "three": "*",
+        "three-stdlib": "*"
+    },
+    "devDependencies": {
+        "@solidjs/testing-library": "^0.8.10",
+        "@testing-library/jest-dom": "^6.8.0",
+        "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+        "@types/three": "^0.175.0",
+        "@vitest/coverage-v8": "^3.2.4",
+        "jsdom": "^26.1.0",
+        "prettier": "^3.5.3",
+        "solid-js": "^1.9.9",
+        "three": "^0.175.0",
+        "three-stdlib": "^2.36.0",
+        "typescript": "^5.9.2",
+        "vite": "^6.3.5",
+        "vite-plugin-dts": "^4.5.4",
+        "vite-plugin-externalize-deps": "^0.9.0",
+        "vite-plugin-solid": "2.11.8",
+        "vitest": "^3.2.4"
+    }
+}
