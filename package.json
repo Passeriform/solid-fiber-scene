@@ -1,6 +1,6 @@
 {
     "name": "@passeriform/solid-fiber-scene",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "ThreeJS declarative scene and renderer for SolidJS.",
     "author": "Utkarsh Bhardwaj (Passeriform) <bhardwajutkarsh.ub@gmail.com>",
     "license": "MIT",
